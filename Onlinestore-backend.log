@@ -1,0 +1,5 @@
+2021-11-27 01:49:40.358  INFO 4464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-27 01:50:09.259 ERROR 4464 --- [http-nio-8080-exec-10] com.onlinestore.admin.FileUploadUtil     : Could not list directory: user-photos\25
+2021-11-27 01:53:14.237  INFO 4464 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-27 01:53:14.241  INFO 4464 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-27 01:53:14.257  INFO 4464 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
