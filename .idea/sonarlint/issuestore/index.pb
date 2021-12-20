@@ -25,8 +25,6 @@ tOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/shi
 ÄOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/shippingrate/ShippingRateAlreadyExistsException.java,e\d\edccd801f86635af3d214869b3d164d8fa97bb16
 ñ
 fOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/order/OrderController.java,5\7\579d9662861d1f8c0ceeb0b733ea5412dc234c80
-†
-pOnlinestoreWebParent/OnlinestoreFrontEnd/src/test/java/com/onlinestore/shoppingcart/CartItemRepositoryTests.java,3\f\3ff8e951ef7d9a037c89f25c0ba296f9a318a80d
 ö
 jOnlinestoreWebParent/OnlinestoreFrontEnd/src/test/java/com/onlinestore/address/AddressRepositoryTests.java,2\d\2d42641cc0b1139b0a8f5a2393435b54fb0a537e
 è
@@ -39,10 +37,6 @@ SOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/order/OrderTrack.
 VOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/order/PaymentMethod.java,b\d\bdf3b1c07189320207d7c5b1edab0bdabe62ce0f
 Ñ
 TOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/order/OrderDetail.java,4\2\42ffdf80834ca55228d64d2ef21afc386fcb359b
-Ç
-ROnlinestoreCommon/src/main/java/com/onlinestore/common/entity/product/Product.java,1\0\10a21f02f8bec56c63786b19319c4b8620162ca9
-x
-HOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/Brand.java,f\9\f94ff0b69e8b1f7b923e9c3d04bd1fb29c33d489
 Ö
 UOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/AuthenticationType.java,5\9\59dda8e0e663053ad06536d566a44506c82dd7f2
 z
@@ -63,8 +57,6 @@ WOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/product/ProductIm
 XOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/product/ProductDetail.java,1\7\17e65909e9e55f7518ec1d4b3d62dc9fea527685
 {
 KOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/CartItem.java,8\8\8818b344e10bf3a23129fa79680859b1c9e2b32a
-{
-KOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/Category.java,1\e\1eae848f23d9da3a3f1a5f99bb548e06b043944c
 z
 JOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/Country.java,b\6\b6b44723a8f34113a2dc8b1917d6a4c83d514c6d
 {
@@ -99,14 +91,6 @@ SOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/Utility.
 jOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/OnlinestoreFrontEndApplication.java,a\5\a56e67541e496fd8e4b47884008028e57bef99ed
 ä
 ZOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/MainController.java,0\0\00c5cc19db4d9b310504ea0d73f49fc28e452849
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-L
-OnlinestoreWebParent/pom.xml,8\e\8ea6efe8a6c156bae6baacdde65e88e996c41aee
-`
-0OnlinestoreWebParent/OnlinestoreFrontEnd/pom.xml,6\e\6efcee0626087fb7cca12c91a4363ec6b3064842
-_
-/OnlinestoreWebParent/OnlinestoreBackEnd/pom.xml,2\7\27ee3937ca29d16c22d4194243254bceaa2f2b59
 I
 OnlinestoreCommon/pom.xml,c\4\c4558f65ccc835f709656dc5a6e4d5f56555524a
 î
@@ -155,3 +139,7 @@ wOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/sec
 tOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/users/controller/UserRestController.java,4\b\4bf55ea2a0659e4dcec563beea8268781235aa81
 í
 bOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/users/UserService.java,b\0\b001735cf6c4de877b663cdf3c7b7c2941a22e67
+L
+OnlinestoreWebParent/pom.xml,8\e\8ea6efe8a6c156bae6baacdde65e88e996c41aee
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

@@ -13,7 +13,7 @@
 	<name>OnlinestoreFrontEnd</name>
 	<description>Parent spring web project</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>15</java.version>
 	</properties>
 
 	<dependencies>
@@ -37,6 +37,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<excludes>**/*.java</excludes>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

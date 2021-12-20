@@ -12,11 +12,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="OnlinestoreBackEnd" target="11" />
+      <module name="OnlinestoreBackEnd" target="15" />
       <module name="OnlinestoreCommon" target="11" />
-      <module name="OnlinestoreFrontEnd" target="11" />
+      <module name="OnlinestoreFrontEnd" target="15" />
       <module name="OnlinestoreProject" target="1.5" />
-      <module name="OnlinestoreWebParent" target="11" />
+      <module name="OnlinestoreWebParent" target="15" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

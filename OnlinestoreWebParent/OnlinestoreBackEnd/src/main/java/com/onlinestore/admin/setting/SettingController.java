@@ -2,6 +2,7 @@ package com.onlinestore.admin.setting;
 
 
 import com.onlinestore.admin.FileUploadUtil;
+import com.onlinestore.common.Constants;
 import com.onlinestore.common.entity.Currency;
 import com.onlinestore.common.entity.setting.Setting;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,6 +37,8 @@ public class SettingController {
         for (Setting setting : listSettings) {
             model.addAttribute(setting.getKey(), setting.getValue());
         }
+
+        model.addAttribute("S3_BASE_URI", Constants.S3_BASE_URI);
 
         return "settings/settings";
     }
