@@ -62,6 +62,7 @@ class CartItemRepositoryTests {
         item2.setProduct(new Product(8));
         item2.setQuantity(3);
 
+
         Iterable<CartItem> iterable = cartItemRepository.saveAll(List.of(item1, item2));
 
         assertThat(iterable).size().isGreaterThan(0);
