@@ -39,7 +39,7 @@ public class CustomerController {
     @Autowired
     private SettingService settingService;
 
-    private Logger logger;
+    private Logger logger = Logger.getLogger("");
 
     @GetMapping("/register")
     public String showRegisterForm(Model model){
