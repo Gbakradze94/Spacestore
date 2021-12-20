@@ -127,8 +127,6 @@ NOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/order/Order.java
 TOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/order/OrderStatus.java,7\b\7be5babb9520b6fa953abfc907f3242bac7fe4da
 Š
 ZOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/MvcConfig.java,5\7\57b41d038d6c570b15b4c22f317734650038dd52
- 
-pOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/users/controller/UserController.java,9\a\9a625f7feb3f9aa0e4ebdc84a56eb8c1748d9ffc
 ž
 nOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/OnlinestoreBackEndApplication.java,0\5\0518c05010b84afb9c48f1766a376181164d26a9
 §
@@ -141,3 +139,17 @@ L
 OnlinestoreWebParent/pom.xml,8\e\8ea6efe8a6c156bae6baacdde65e88e996c41aee
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+`
+0OnlinestoreWebParent/OnlinestoreFrontEnd/pom.xml,6\e\6efcee0626087fb7cca12c91a4363ec6b3064842
+x
+HOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/Brand.java,f\9\f94ff0b69e8b1f7b923e9c3d04bd1fb29c33d489
+{
+KOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/Category.java,1\e\1eae848f23d9da3a3f1a5f99bb548e06b043944c
+_
+/OnlinestoreWebParent/OnlinestoreBackEnd/pom.xml,2\7\27ee3937ca29d16c22d4194243254bceaa2f2b59
+ 
+pOnlinestoreWebParent/OnlinestoreFrontEnd/src/test/java/com/onlinestore/shoppingcart/CartItemRepositoryTests.java,3\f\3ff8e951ef7d9a037c89f25c0ba296f9a318a80d
+€
+POnlinestoreCommon/src/main/java/com/onlinestore/common/entity/IdBasedEntity.java,4\6\463f2e57d92103e51101bb4f3ae19d28eda6b0fa
+‚
+ROnlinestoreCommon/src/main/java/com/onlinestore/common/entity/product/Product.java,1\0\10a21f02f8bec56c63786b19319c4b8620162ca9

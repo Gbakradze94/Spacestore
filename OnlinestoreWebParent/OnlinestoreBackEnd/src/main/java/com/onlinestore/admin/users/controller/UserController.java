@@ -1,5 +1,6 @@
 package com.onlinestore.admin.users.controller;
 
+import com.onlinestore.admin.AmazonS3Util;
 import com.onlinestore.admin.FileUploadUtil;
 import com.onlinestore.admin.paging.PagingAndSortingHelper;
 import com.onlinestore.admin.paging.PagingAndSortingParam;
@@ -70,8 +71,8 @@ public class UserController {
 
             String uploadDir = "user-photos/" + savedUser.getId();
 
-            FileUploadUtil.cleanDir(uploadDir);
-            FileUploadUtil.saveFile(uploadDir, fileName, multipartFile);
+            AmazonS3Util.removeFolder(uploadDir);
+            AmazonS3Util.uploadFile(uploadDir,fileName,multipartFile.getInputStream());
 
         } else {
             if (user.getPhotos().isEmpty()) user.setPhotos(null);
