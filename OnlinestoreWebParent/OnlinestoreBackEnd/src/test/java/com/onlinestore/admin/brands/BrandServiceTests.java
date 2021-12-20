@@ -1,5 +1,7 @@
 package com.onlinestore.admin.brands;
 
+import com.onlinestore.admin.repository.BrandRepository;
+import com.onlinestore.admin.service.BrandService;
 import com.onlinestore.common.entity.Brand;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

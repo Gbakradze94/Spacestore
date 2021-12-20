@@ -78,6 +78,13 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
 			<groupId>com.onlinestore</groupId>
 			<artifactId>OnlinestoreCommon</artifactId>
 			<version>0.0.1-SNAPSHOT</version>

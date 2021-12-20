@@ -18,7 +18,7 @@ import java.util.Set;
 public class ProductSaveHelper {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ProductSaveHelper.class);
-    static void deleteExtraImagesWhereRemovedOnForm(Product product) {
+    public static void deleteExtraImagesWhereRemovedOnForm(Product product) {
         String extraImageDir = "product-images/" + product.getId() + "/extras";
         Path dirPath = Paths.get(extraImageDir);
 
@@ -40,7 +40,7 @@ public class ProductSaveHelper {
         }
     }
 
-    static void setExistingExtraImageNames(String[] imageIDs, String[] imageNames, Product product) {
+    public static void setExistingExtraImageNames(String[] imageIDs, String[] imageNames, Product product) {
         if (imageIDs == null || imageIDs.length == 0) return;
 
         Set<ProductImage> images = new HashSet<ProductImage>();
@@ -55,7 +55,7 @@ public class ProductSaveHelper {
         product.setImages(images);
     }
 
-    static void setProductDetails(String[] detailIDs, String[] detailNames,
+    public  static void setProductDetails(String[] detailIDs, String[] detailNames,
                                    String[] detailValues, Product product) {
         if (detailNames == null || detailNames.length == 0) return;
 
@@ -72,7 +72,7 @@ public class ProductSaveHelper {
         }
     }
 
-    static void saveUploadedImages(MultipartFile mainImageMultipart,
+    public static void saveUploadedImages(MultipartFile mainImageMultipart,
                                     MultipartFile[] extraImageMultiparts, Product savedProduct) throws IOException {
         if (!mainImageMultipart.isEmpty()) {
             String fileName = StringUtils.cleanPath(mainImageMultipart.getOriginalFilename());
@@ -95,7 +95,7 @@ public class ProductSaveHelper {
 
     }
 
-    static void setNewExtraImageNames(MultipartFile[] extraImageMultiparts, Product product) {
+    public static void setNewExtraImageNames(MultipartFile[] extraImageMultiparts, Product product) {
         if (extraImageMultiparts.length > 0) {
             for (MultipartFile multipartFile : extraImageMultiparts) {
                 if (!multipartFile.isEmpty()) {
@@ -110,7 +110,7 @@ public class ProductSaveHelper {
     }
 
 
-    static void setMainImageName(MultipartFile mainImageMultipart, Product product) {
+    public static void setMainImageName(MultipartFile mainImageMultipart, Product product) {
         if (!mainImageMultipart.isEmpty()) {
             String fileName = StringUtils.cleanPath(mainImageMultipart.getOriginalFilename());
             product.setMainImage(fileName);

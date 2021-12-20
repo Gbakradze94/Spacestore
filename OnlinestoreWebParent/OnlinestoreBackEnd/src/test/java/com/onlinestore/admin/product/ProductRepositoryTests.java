@@ -2,6 +2,7 @@ package com.onlinestore.admin.product;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.onlinestore.admin.repository.ProductRepository;
 import com.onlinestore.common.entity.Brand;
 import com.onlinestore.common.entity.Category;
 import com.onlinestore.common.entity.product.Product;

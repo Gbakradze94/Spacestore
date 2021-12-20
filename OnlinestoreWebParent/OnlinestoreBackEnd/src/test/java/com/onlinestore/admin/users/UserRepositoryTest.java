@@ -1,5 +1,6 @@
 package com.onlinestore.admin.users;
 
+import com.onlinestore.admin.repository.UserRepository;
 import com.onlinestore.common.entity.Role;
 import com.onlinestore.common.entity.User;
 import org.junit.jupiter.api.Test;

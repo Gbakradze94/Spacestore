@@ -1,6 +1,6 @@
 package com.onlinestore.admin.security;
 
-import com.onlinestore.admin.users.UserRepository;
+import com.onlinestore.admin.repository.UserRepository;
 import com.onlinestore.common.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

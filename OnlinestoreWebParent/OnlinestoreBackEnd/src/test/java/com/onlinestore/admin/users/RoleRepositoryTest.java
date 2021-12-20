@@ -1,5 +1,6 @@
 package com.onlinestore.admin.users;
 
+import com.onlinestore.admin.repository.RoleRepository;
 import com.onlinestore.common.entity.Role;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
