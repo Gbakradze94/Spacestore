@@ -56,7 +56,7 @@ public class CustomerController {
         sendVerificationEmail(request,customer);
         model.addAttribute("pageTitle","Registration Succeeded!");
 
-        return "/register/register_success";
+        return "register/register_success";
     }
 
     private void sendVerificationEmail(HttpServletRequest request, Customer customer) throws MessagingException, UnsupportedEncodingException {
