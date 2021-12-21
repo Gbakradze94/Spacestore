@@ -113,7 +113,11 @@ public class UserController {
                              Model model,
                              RedirectAttributes redirectAttributes) {
         try {
-            service.delete(id);;
+            service.delete(id);
+            String userPhotosDir = "user-photos/" + id;
+            AmazonS3Util.deleteFile(userPhotosDir);
+
+
             redirectAttributes.addFlashAttribute("message",
                     "The user ID " + id + " has been deleted successfully");
         } catch (UserNotFoundException ex) {

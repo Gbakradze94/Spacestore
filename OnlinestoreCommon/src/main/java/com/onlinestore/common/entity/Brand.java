@@ -1,11 +1,13 @@
 package com.onlinestore.common.entity;
 
 import com.onlinestore.common.Constants;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+@NoArgsConstructor
 @Entity
 @Table(name = "brands")
 public class Brand extends IdBasedEntity {
@@ -24,9 +26,6 @@ public class Brand extends IdBasedEntity {
     )
     private Set<Category> categories = new HashSet<>();
 
-    public Brand() {
-
-    }
 
     public Brand(String name) {
         this.name = name;

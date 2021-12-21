@@ -1,6 +1,7 @@
 package com.onlinestore.admin.controller;
 
 
+import com.onlinestore.admin.AmazonS3Util;
 import com.onlinestore.admin.FileUploadUtil;
 import com.onlinestore.admin.category.CategoryCsvExporter;
 import com.onlinestore.admin.category.CategoryPageInfo;
@@ -88,11 +89,16 @@ public class CategoryController {
             String fileName = StringUtils.cleanPath(multipartFile.getOriginalFilename());
             category.setImage(fileName);
 
-            Category savedCategory = service.save(category);
-            String uploadDir = "../category-images/" + savedCategory.getId();
 
-            FileUploadUtil.cleanDir(uploadDir);
-            FileUploadUtil.saveFile(uploadDir, fileName, multipartFile);
+            Category savedCategory = service.save(category);
+            String uploadDir = "category-images/" + savedCategory.getId();
+
+
+            AmazonS3Util.removeFolder(uploadDir);
+            AmazonS3Util.uploadFile(uploadDir,fileName,multipartFile.getInputStream());
+
+            //FileUploadUtil.cleanDir(uploadDir);
+            //FileUploadUtil.saveFile(uploadDir, fileName, multipartFile);
         } else {
             service.save(category);
         }
@@ -136,7 +142,9 @@ public class CategoryController {
                                  RedirectAttributes redirectAttributes) {
         try {
             service.delete(id);
-            String categoryDir = "../category-images/" + id;
+            String categoryDir = "category-images/" + id;
+
+            AmazonS3Util.removeFolder(categoryDir);
             FileUploadUtil.removeDir(categoryDir);
 
             redirectAttributes.addFlashAttribute("message",

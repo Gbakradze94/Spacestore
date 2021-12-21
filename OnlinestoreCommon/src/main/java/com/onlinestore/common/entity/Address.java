@@ -1,7 +1,10 @@
 package com.onlinestore.common.entity;
 
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
+
 
 @Entity
 @Table(name = "addresses")

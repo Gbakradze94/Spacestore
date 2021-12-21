@@ -1,6 +1,7 @@
 package com.onlinestore.admin.controller;
 
 
+import com.onlinestore.admin.AmazonS3Util;
 import com.onlinestore.admin.FileUploadUtil;
 import com.onlinestore.admin.exception.BrandNotFoundException;
 import com.onlinestore.admin.service.BrandService;
@@ -62,8 +63,8 @@ public class BrandController {
             Brand savedBrand = brandService.save(brand);
             String uploadDir = "../brand-logos/" + savedBrand.getId();
 
-            FileUploadUtil.cleanDir(uploadDir);
-            FileUploadUtil.saveFile(uploadDir, fileName, multipartFile);
+            AmazonS3Util.removeFolder(uploadDir);
+            AmazonS3Util.uploadFile(uploadDir, fileName, multipartFile.getInputStream());
 
         } else {
             brandService.save(brand);

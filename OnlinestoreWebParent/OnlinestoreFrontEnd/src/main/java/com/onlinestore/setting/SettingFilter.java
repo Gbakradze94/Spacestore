@@ -1,5 +1,6 @@
 package com.onlinestore.setting;
 
+import com.onlinestore.common.Constants;
 import com.onlinestore.common.entity.setting.Setting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -32,10 +33,12 @@ public class SettingFilter implements Filter {
         List<Setting> generalSettings = settingService.getGeneralSettings();
 
         generalSettings.forEach(setting -> {
-           // System.out.println(setting);
-            request.setAttribute(setting.getKey(),setting.getValue());
+            request.setAttribute(setting.getKey(), setting.getValue());
+            System.out.println(setting.getKey() + " == > " + setting.getValue());
         });
 
-        chain.doFilter(request,response);
+        request.setAttribute("S3_BASE_URI", Constants.S3_BASE_URI);
+
+        chain.doFilter(request, response);
     }
 }
