@@ -1,5 +1,7 @@
-package com.onlinestore.admin.setting;
+package com.onlinestore.admin.service;
 
+import com.onlinestore.admin.repository.SettingRepository;
+import com.onlinestore.admin.setting.GeneralSettingBag;
 import com.onlinestore.common.entity.setting.Setting;
 import com.onlinestore.common.entity.setting.SettingCategory;
 import org.springframework.beans.factory.annotation.Autowired;

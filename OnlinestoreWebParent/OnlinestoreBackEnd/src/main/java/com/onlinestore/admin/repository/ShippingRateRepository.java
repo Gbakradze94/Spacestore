@@ -1,6 +1,6 @@
-package com.onlinestore.admin.shippingrate;
+package com.onlinestore.admin.repository;
 
-import com.onlinestore.admin.paging.SearchRepository;
+import com.onlinestore.admin.repository.SearchRepository;
 import com.onlinestore.common.entity.ShippingRate;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

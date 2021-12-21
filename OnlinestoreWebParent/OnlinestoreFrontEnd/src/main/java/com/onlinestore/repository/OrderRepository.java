@@ -1,4 +1,4 @@
-package com.onlinestore.order;
+package com.onlinestore.repository;
 
 import com.onlinestore.common.entity.Customer;
 import com.onlinestore.common.entity.order.Order;

@@ -6,6 +6,7 @@ package com.onlinestore.address;
 import com.onlinestore.common.entity.Address;
 import com.onlinestore.common.entity.Country;
 import com.onlinestore.common.entity.Customer;
+import com.onlinestore.repository.AddressRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -18,7 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 @Rollback(value = false)
-public class AddressRepositoryTests {
+class AddressRepositoryTests {
     @Autowired
     private AddressRepository addressRepository;
 
@@ -34,6 +35,7 @@ public class AddressRepositoryTests {
         newAddress.setLastName("Mayers");
         newAddress.setPhoneNumber("122-020-1992");
         newAddress.setAddressLine1("105 Sunny Lane");
+        newAddress.setDefaultForShipping(true);
         newAddress.setCity("New York");
         newAddress.setState("New York");
         newAddress.setPostalCode("10013");
@@ -43,5 +45,13 @@ public class AddressRepositoryTests {
         assertThat(savedAddress).isNotNull();
         assertThat(savedAddress.getId()).isGreaterThan(0);
 
+    }
+
+    @Test
+    void testGetDefault(){
+        Integer customerId = 5;
+        Address address = addressRepository.findDefaultByCustomer(customerId);
+        assertThat(address).isNotNull();
+        System.out.println(address);
     }
 }

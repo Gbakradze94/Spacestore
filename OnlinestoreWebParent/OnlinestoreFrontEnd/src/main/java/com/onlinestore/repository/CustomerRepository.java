@@ -1,4 +1,4 @@
-package com.onlinestore.customer;
+package com.onlinestore.repository;
 
 import com.onlinestore.common.entity.AuthenticationType;
 import com.onlinestore.common.entity.Customer;

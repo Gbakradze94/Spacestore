@@ -1,7 +1,8 @@
-package com.onlinestore.category;
+package com.onlinestore.service;
 
 import com.onlinestore.common.entity.Category;
 import com.onlinestore.common.exception.CategoryNotFoundException;
+import com.onlinestore.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

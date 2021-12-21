@@ -1,4 +1,4 @@
-package com.onlinestore.address;
+package com.onlinestore.repository;
 
 import com.onlinestore.common.entity.Address;
 import com.onlinestore.common.entity.Customer;

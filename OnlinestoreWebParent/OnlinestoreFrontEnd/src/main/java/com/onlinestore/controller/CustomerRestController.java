@@ -1,4 +1,4 @@
-package com.onlinestore.customer;
+package com.onlinestore.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

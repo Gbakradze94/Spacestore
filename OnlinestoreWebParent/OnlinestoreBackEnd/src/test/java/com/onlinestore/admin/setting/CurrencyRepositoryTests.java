@@ -1,6 +1,7 @@
 package com.onlinestore.admin.setting;
 
 
+import com.onlinestore.admin.repository.CurrencyRepository;
 import com.onlinestore.common.entity.Currency;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

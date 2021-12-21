@@ -1,4 +1,4 @@
-package com.onlinestore.admin.setting;
+package com.onlinestore.admin.repository;
 
 import com.onlinestore.common.entity.setting.Setting;
 import com.onlinestore.common.entity.setting.SettingCategory;

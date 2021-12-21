@@ -1,5 +1,6 @@
 package com.onlinestore.admin.category;
 
+import com.onlinestore.admin.repository.CategoryRepository;
 import com.onlinestore.admin.service.CategoryService;
 import com.onlinestore.common.entity.Category;
 import org.junit.jupiter.api.Test;

@@ -2,7 +2,7 @@ package com.onlinestore.security.oauth;
 
 import com.onlinestore.common.entity.AuthenticationType;
 import com.onlinestore.common.entity.Customer;
-import com.onlinestore.customer.CustomerService;
+import com.onlinestore.controller.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;

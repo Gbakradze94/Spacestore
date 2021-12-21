@@ -4,6 +4,7 @@ package com.onlinestore.customer;
 import com.onlinestore.common.entity.AuthenticationType;
 import com.onlinestore.common.entity.Country;
 import com.onlinestore.common.entity.Customer;
+import com.onlinestore.repository.CustomerRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

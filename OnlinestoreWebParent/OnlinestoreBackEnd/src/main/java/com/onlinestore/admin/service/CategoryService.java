@@ -1,7 +1,7 @@
 package com.onlinestore.admin.service;
 
 import com.onlinestore.admin.category.CategoryPageInfo;
-import com.onlinestore.admin.category.CategoryRepository;
+import com.onlinestore.admin.repository.CategoryRepository;
 import com.onlinestore.common.entity.Category;
 import com.onlinestore.common.exception.CategoryNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

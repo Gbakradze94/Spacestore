@@ -1,4 +1,4 @@
-package com.onlinestore.admin.category;
+package com.onlinestore.admin.repository;
 
 import com.onlinestore.common.entity.Category;
 import org.springframework.data.domain.Page;

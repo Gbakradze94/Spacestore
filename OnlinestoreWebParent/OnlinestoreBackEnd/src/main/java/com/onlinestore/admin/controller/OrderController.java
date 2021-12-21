@@ -4,7 +4,7 @@ package com.onlinestore.admin.controller;
 import com.onlinestore.admin.service.OrderServise;
 import com.onlinestore.admin.paging.PagingAndSortingHelper;
 import com.onlinestore.admin.paging.PagingAndSortingParam;
-import com.onlinestore.admin.setting.SettingService;
+import com.onlinestore.admin.service.SettingService;
 import com.onlinestore.common.entity.setting.Setting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

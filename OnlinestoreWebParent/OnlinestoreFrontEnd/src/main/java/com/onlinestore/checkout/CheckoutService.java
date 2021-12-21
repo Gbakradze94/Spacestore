@@ -10,6 +10,8 @@ import java.util.List;
 
 @Service
 public class CheckoutService {
+
+    // DIM: Dimensional weight. 139 cubic inches per pound (FedEx)
     private static final int DIM_DIVISOR = 139;
 
     public CheckoutInfo prepareCheckout(List<CartItem> cartItems, ShippingRate shippingRate) {

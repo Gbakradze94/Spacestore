@@ -1,10 +1,11 @@
-package com.onlinestore.product;
+package com.onlinestore.controller;
 
-import com.onlinestore.category.CategoryService;
+import com.onlinestore.service.CategoryService;
 import com.onlinestore.common.entity.Category;
 import com.onlinestore.common.entity.product.Product;
 import com.onlinestore.common.exception.CategoryNotFoundException;
 import com.onlinestore.common.exception.ProductNotFoundException;
+import com.onlinestore.product.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.repository.query.Param;

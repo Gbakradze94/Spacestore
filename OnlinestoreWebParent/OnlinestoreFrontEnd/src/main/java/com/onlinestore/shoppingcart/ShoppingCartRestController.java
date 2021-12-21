@@ -4,7 +4,7 @@ package com.onlinestore.shoppingcart;
 import com.onlinestore.Utility;
 import com.onlinestore.common.entity.Customer;
 import com.onlinestore.common.exception.CustomerNotFoundException;
-import com.onlinestore.customer.CustomerService;
+import com.onlinestore.controller.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;

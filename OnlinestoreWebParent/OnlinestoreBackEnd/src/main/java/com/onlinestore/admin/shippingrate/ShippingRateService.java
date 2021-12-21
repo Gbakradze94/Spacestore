@@ -2,6 +2,7 @@ package com.onlinestore.admin.shippingrate;
 
 
 import com.onlinestore.admin.paging.PagingAndSortingHelper;
+import com.onlinestore.admin.repository.ShippingRateRepository;
 import com.onlinestore.admin.setting.country.CountryRepository;
 import com.onlinestore.common.entity.Country;
 import com.onlinestore.common.entity.ShippingRate;

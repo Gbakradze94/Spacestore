@@ -1,14 +1,14 @@
-package com.onlinestore.shoppingcart;
+package com.onlinestore.controller;
 
 
 import com.onlinestore.Utility;
-import com.onlinestore.address.AddressService;
+import com.onlinestore.service.AddressService;
 import com.onlinestore.common.entity.Address;
 import com.onlinestore.common.entity.CartItem;
 import com.onlinestore.common.entity.Customer;
 import com.onlinestore.common.entity.ShippingRate;
-import com.onlinestore.customer.CustomerService;
 import com.onlinestore.shipping.ShippingRateService;
+import com.onlinestore.shoppingcart.ShoppingCartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

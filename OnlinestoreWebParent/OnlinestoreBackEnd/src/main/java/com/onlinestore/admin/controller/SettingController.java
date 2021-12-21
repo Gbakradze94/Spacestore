@@ -2,10 +2,9 @@ package com.onlinestore.admin.controller;
 
 
 import com.onlinestore.admin.AmazonS3Util;
-import com.onlinestore.admin.FileUploadUtil;
-import com.onlinestore.admin.setting.CurrencyRepository;
+import com.onlinestore.admin.repository.CurrencyRepository;
 import com.onlinestore.admin.setting.GeneralSettingBag;
-import com.onlinestore.admin.setting.SettingService;
+import com.onlinestore.admin.service.SettingService;
 import com.onlinestore.common.Constants;
 import com.onlinestore.common.entity.Currency;
 import com.onlinestore.common.entity.setting.Setting;

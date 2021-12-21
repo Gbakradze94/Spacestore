@@ -1,6 +1,7 @@
 package com.onlinestore.product;
 
 import com.onlinestore.common.entity.product.Product;
+import com.onlinestore.repository.ProductRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

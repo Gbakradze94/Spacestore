@@ -1,5 +1,6 @@
 package com.onlinestore.admin.paging;
 
+import com.onlinestore.admin.repository.SearchRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;

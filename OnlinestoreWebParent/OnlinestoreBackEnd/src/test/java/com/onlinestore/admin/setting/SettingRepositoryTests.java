@@ -1,5 +1,6 @@
 package com.onlinestore.admin.setting;
 
+import com.onlinestore.admin.repository.SettingRepository;
 import com.onlinestore.common.entity.setting.Setting;
 import com.onlinestore.common.entity.setting.SettingCategory;
 import org.junit.jupiter.api.Test;

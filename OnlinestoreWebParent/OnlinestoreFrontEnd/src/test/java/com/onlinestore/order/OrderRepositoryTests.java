@@ -7,6 +7,7 @@ import com.onlinestore.common.entity.order.OrderDetail;
 import com.onlinestore.common.entity.order.OrderStatus;
 import com.onlinestore.common.entity.order.PaymentMethod;
 import com.onlinestore.common.entity.product.Product;
+import com.onlinestore.repository.OrderRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

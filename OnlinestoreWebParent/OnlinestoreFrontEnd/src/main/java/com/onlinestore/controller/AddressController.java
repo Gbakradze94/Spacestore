@@ -1,11 +1,11 @@
-package com.onlinestore.address;
+package com.onlinestore.controller;
 
 
 import com.onlinestore.Utility;
+import com.onlinestore.service.AddressService;
 import com.onlinestore.common.entity.Address;
 import com.onlinestore.common.entity.Country;
 import com.onlinestore.common.entity.Customer;
-import com.onlinestore.customer.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

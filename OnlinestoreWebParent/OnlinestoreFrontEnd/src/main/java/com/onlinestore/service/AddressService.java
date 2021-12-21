@@ -1,7 +1,8 @@
-package com.onlinestore.address;
+package com.onlinestore.service;
 
 import com.onlinestore.common.entity.Address;
 import com.onlinestore.common.entity.Customer;
+import com.onlinestore.repository.AddressRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

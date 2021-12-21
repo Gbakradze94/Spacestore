@@ -4,7 +4,7 @@ package com.onlinestore.shoppingcart;
 import com.onlinestore.common.entity.CartItem;
 import com.onlinestore.common.entity.Customer;
 import com.onlinestore.common.entity.product.Product;
-import com.onlinestore.product.ProductRepository;
+import com.onlinestore.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

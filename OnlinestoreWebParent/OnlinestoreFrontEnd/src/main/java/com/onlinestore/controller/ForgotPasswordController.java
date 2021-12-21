@@ -1,8 +1,9 @@
-package com.onlinestore.customer;
+package com.onlinestore.controller;
 
 import com.onlinestore.Utility;
 import com.onlinestore.common.entity.Customer;
 import com.onlinestore.common.exception.CustomerNotFoundException;
+import com.onlinestore.controller.CustomerService;
 import com.onlinestore.setting.EmailSettingBag;
 import com.onlinestore.setting.SettingService;
 import org.springframework.beans.factory.annotation.Autowired;

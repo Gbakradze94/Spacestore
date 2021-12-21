@@ -1,5 +1,6 @@
 package com.onlinestore.admin.category;
 
+import com.onlinestore.admin.repository.CategoryRepository;
 import com.onlinestore.common.entity.Category;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +10,6 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.annotation.Rollback;
 
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 

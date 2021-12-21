@@ -1,14 +1,15 @@
-package com.onlinestore.checkout;
+package com.onlinestore.controller;
 
 import com.onlinestore.Utility;
-import com.onlinestore.address.AddressService;
+import com.onlinestore.service.AddressService;
+import com.onlinestore.checkout.CheckoutInfo;
+import com.onlinestore.checkout.CheckoutService;
 import com.onlinestore.checkout.paypal.PayPalApiException;
 import com.onlinestore.checkout.paypal.PayPalService;
 import com.onlinestore.common.entity.*;
 import com.onlinestore.common.entity.order.Order;
 import com.onlinestore.common.entity.order.PaymentMethod;
-import com.onlinestore.customer.CustomerService;
-import com.onlinestore.order.OrderService;
+import com.onlinestore.service.OrderService;
 import com.onlinestore.setting.CurrencySettingBag;
 import com.onlinestore.setting.EmailSettingBag;
 import com.onlinestore.setting.PaymentSettingBag;

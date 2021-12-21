@@ -3,8 +3,6 @@
 YOnlinestoreCommon/src/main/java/com/onlinestore/sample/services/impl/UserServiceImpl.java,1\9\19d1ccd09cbbeefd8f05dab574f8faeacd1aa804
 Ä
 POnlinestoreCommon/src/main/java/com/onlinestore/sample/services/UserService.java,e\1\e18bfc4361c7e0a1e14194ff0cad6729b62b1c01
-õ
-kOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/customer/CustomerRestController.java,d\0\d062d74d524acad295d52b936286b4a8399806c3
 ù
 mOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/security/oauth/CustomerOAuth2User.java,d\1\d10e03bfc9c524b2396780d723ba83dd5b901e10
 û
@@ -19,12 +17,8 @@ qOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/shi
 {OnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/shippingrate/ShippingRateNotFoundException.java,3\0\301ed0b8106569e845d46c6389e973827e6b2e49
 ±
 ÄOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/shippingrate/ShippingRateAlreadyExistsException.java,e\d\edccd801f86635af3d214869b3d164d8fa97bb16
-ö
-jOnlinestoreWebParent/OnlinestoreFrontEnd/src/test/java/com/onlinestore/address/AddressRepositoryTests.java,2\d\2d42641cc0b1139b0a8f5a2393435b54fb0a537e
 è
 _OnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/MainController.java,8\3\83f0e26e2e9011279405df015b4980c22e104bfa
-î
-dOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/checkout/CheckoutService.java,1\5\159b19d3001c41c0f8bb2783b8f1e031c1d5262d
 É
 SOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/order/OrderTrack.java,7\7\775e09ae6fa827a3073fb21d310d8d9a21dea100
 Ü
@@ -65,12 +59,6 @@ kOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/shipping
 SOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/Utility.java,1\f\1f5fef2ff00bfccc94acebd2bf16d8143ee03ba6
 ö
 jOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/OnlinestoreFrontEndApplication.java,a\5\a56e67541e496fd8e4b47884008028e57bef99ed
-ä
-ZOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/MainController.java,0\0\00c5cc19db4d9b310504ea0d73f49fc28e452849
-ó
-gOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/customer/CustomerRepository.java,7\3\73d9c1caa94d08a5586705e182db270c51878c57
-ù
-mOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/customer/ForgotPasswordController.java,8\4\84f71a2d72caad1c5551c1a11238b7a4aa0209c3
 ú
 lOnlinestoreWebParent/OnlinestoreFrontEnd/src/main/java/com/onlinestore/shoppingcart/ShoppingCartService.java,c\a\cae217e5dbb0c44781a07ae5f89600c9c46f30d4
 õ
@@ -173,11 +161,7 @@ qOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/con
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 L
 OnlinestoreWebParent/pom.xml,8\e\8ea6efe8a6c156bae6baacdde65e88e996c41aee
-ù
-mOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/controller/AccountController.java,6\b\6b292a357a7669810e20213af9df83c12dff663e
 õ
 kOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/security/WebSecurityConfig.java,e\9\e944a9b11b082a2a16cbbcf8672b8a8f8f2dd174
-û
-nOnlinestoreWebParent/OnlinestoreBackEnd/src/main/java/com/onlinestore/admin/controller/CustomerController.java,7\2\72c6bd6d06e99299260195cd2794b9632201deff
 z
 JOnlinestoreCommon/src/main/java/com/onlinestore/common/entity/Address.java,a\c\aca5eb79871cb6b9fbe02e8057210794239ba74c

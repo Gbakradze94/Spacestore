@@ -1,10 +1,11 @@
-package com.onlinestore.customer;
+package com.onlinestore.controller;
 
 
 import com.onlinestore.common.entity.AuthenticationType;
 import com.onlinestore.common.entity.Country;
 import com.onlinestore.common.entity.Customer;
 import com.onlinestore.common.exception.CustomerNotFoundException;
+import com.onlinestore.repository.CustomerRepository;
 import com.onlinestore.setting.CountryRepository;
 import net.bytebuddy.utility.RandomString;
 import org.springframework.beans.factory.annotation.Autowired;

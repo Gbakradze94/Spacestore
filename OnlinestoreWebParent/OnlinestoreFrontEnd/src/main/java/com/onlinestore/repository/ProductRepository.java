@@ -1,4 +1,4 @@
-package com.onlinestore.product;
+package com.onlinestore.repository;
 
 import com.onlinestore.common.entity.product.Product;
 import org.springframework.data.domain.Page;

@@ -3,6 +3,7 @@ package com.onlinestore.product;
 
 import com.onlinestore.common.entity.product.Product;
 import com.onlinestore.common.exception.ProductNotFoundException;
+import com.onlinestore.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

@@ -2,6 +2,7 @@ package com.onlinestore.category;
 
 
 import com.onlinestore.common.entity.Category;
+import com.onlinestore.repository.CategoryRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;

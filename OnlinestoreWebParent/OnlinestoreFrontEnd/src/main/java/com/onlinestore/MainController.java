@@ -1,6 +1,6 @@
 package com.onlinestore;
 
-import com.onlinestore.category.CategoryService;
+import com.onlinestore.service.CategoryService;
 import com.onlinestore.common.entity.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;

@@ -1,9 +1,9 @@
-package com.onlinestore.order;
+package com.onlinestore.controller;
 
 import com.onlinestore.Utility;
 import com.onlinestore.common.entity.Customer;
 import com.onlinestore.common.entity.order.Order;
-import com.onlinestore.customer.CustomerService;
+import com.onlinestore.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;

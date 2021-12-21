@@ -1,7 +1,7 @@
 package com.onlinestore.security;
 
 import com.onlinestore.common.entity.Customer;
-import com.onlinestore.customer.CustomerRepository;
+import com.onlinestore.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,4 +1,4 @@
-package com.onlinestore.category;
+package com.onlinestore.repository;
 
 import com.onlinestore.common.entity.Category;
 import org.springframework.data.jpa.repository.Query;

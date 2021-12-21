@@ -1,4 +1,4 @@
-package com.onlinestore.customer;
+package com.onlinestore.controller;
 
 
 import com.onlinestore.Utility;
@@ -12,11 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
-import org.springframework.security.authentication.RememberMeAuthenticationProvider;
 import org.springframework.security.authentication.RememberMeAuthenticationToken;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.oauth2.client.authentication.OAuth2AuthenticationToken;
-import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -39,7 +37,7 @@ public class CustomerController {
     @Autowired
     private SettingService settingService;
 
-    private Logger logger = Logger.getLogger("");
+    //private Logger logger = Logger.getLogger("");
 
     @GetMapping("/register")
     public String showRegisterForm(Model model){
@@ -86,8 +84,9 @@ public class CustomerController {
 
         mailSender.send(message);
 
-        logger.log(Level.INFO,"to address: {0} ", toAddress);
-        logger.log(Level.INFO,"verify URL: {0} ",  verifyURL);
+        //logger.log(Level.INFO,"to address: {0} ", toAddress);
+        //logger.log(Level.INFO,"verify URL: {0} ",  verifyURL);
+        //logger.log(Level.INFO,"verify URL: {0} ",  verifyURL);
 
     }
 
