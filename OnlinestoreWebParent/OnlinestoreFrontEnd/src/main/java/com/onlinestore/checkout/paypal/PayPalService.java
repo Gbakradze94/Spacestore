@@ -1,7 +1,7 @@
 package com.onlinestore.checkout.paypal;
 
 import com.onlinestore.setting.PaymentSettingBag;
-import com.onlinestore.setting.SettingService;
+import com.onlinestore.service.SettingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.stereotype.Component;

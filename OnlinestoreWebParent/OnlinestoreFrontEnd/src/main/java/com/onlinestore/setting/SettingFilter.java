@@ -2,6 +2,7 @@ package com.onlinestore.setting;
 
 import com.onlinestore.common.Constants;
 import com.onlinestore.common.entity.setting.Setting;
+import com.onlinestore.service.SettingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

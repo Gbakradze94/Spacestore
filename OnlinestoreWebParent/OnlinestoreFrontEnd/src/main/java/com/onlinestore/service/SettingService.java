@@ -1,8 +1,9 @@
-package com.onlinestore.setting;
+package com.onlinestore.service;
 
 import com.onlinestore.common.entity.Currency;
 import com.onlinestore.common.entity.setting.Setting;
 import com.onlinestore.common.entity.setting.SettingCategory;
+import com.onlinestore.setting.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

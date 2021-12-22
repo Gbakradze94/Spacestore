@@ -7,7 +7,7 @@ import com.onlinestore.common.entity.Customer;
 import com.onlinestore.security.CustomerUserDetails;
 import com.onlinestore.security.oauth.CustomerOAuth2User;
 import com.onlinestore.setting.EmailSettingBag;
-import com.onlinestore.setting.SettingService;
+import com.onlinestore.service.SettingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
@@ -26,8 +26,6 @@ import javax.mail.internet.MimeMessage;
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 @Controller
 public class CustomerController {

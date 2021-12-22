@@ -13,7 +13,7 @@ import com.onlinestore.service.OrderService;
 import com.onlinestore.setting.CurrencySettingBag;
 import com.onlinestore.setting.EmailSettingBag;
 import com.onlinestore.setting.PaymentSettingBag;
-import com.onlinestore.setting.SettingService;
+import com.onlinestore.service.SettingService;
 import com.onlinestore.shipping.ShippingRateService;
 import com.onlinestore.shoppingcart.ShoppingCartService;
 import org.springframework.beans.factory.annotation.Autowired;
