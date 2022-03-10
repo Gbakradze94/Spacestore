@@ -1,19 +1,0 @@
-
-N
-java:S1854"8Remove this useless assignment to local variable "sort".(€ÀÂ
-S
-java:S1854!"8Remove this useless assignment to local variable "sort".(³œ´–üÿÿÿÿ
-?
-java:S1604Ç"(Make this anonymous inner class a lambda(‡ÏíÇ
-T
-java:S11557">Use isEmpty() to check whether the collection is empty or not.(Žƒñ‰
-7
-java:S1643`"Use a StringBuilder instead.(ž¹¹Èüÿÿÿÿ
-8
-java:S1643–"Use a StringBuilder instead.(ž¹¹Èüÿÿÿÿ
-R
-java:S4973¶"<Strings and Boxed types should be compared using "equals()".(…¦¿`
-S
-java:S4973»"<Strings and Boxed types should be compared using "equals()".(ÍÉè×
-l
-java:S3655¢"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ñ¹Ö–ûÿÿÿÿ

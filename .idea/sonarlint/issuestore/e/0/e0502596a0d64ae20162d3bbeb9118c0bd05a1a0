@@ -1,9 +1,0 @@
-
-U
-java:S4684L"@Replace this persistent entity with a simple POJO or DTO object.(§ß¡
-^
-java:S1192C"HDefine a constant instead of duplicating this literal "product" 3 times.(³Ù×Ã
-^
-java:S1192["HDefine a constant instead of duplicating this literal "message" 7 times.(ÍÄÕ´
-J
-java:S1066Y"/Merge this if statement with the enclosing one.(¶ãüÿÿÿÿÿ
